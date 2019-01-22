@@ -1,0 +1,27 @@
+{
+  "name": "@eivy-chan/pwned",
+  "version": "4.0.0",
+  "description": "First CLI tool",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benestruv/Node.JS-CLI"
+  },
+  "author": "Benedicte Struvay",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/benestruv/Node.JS-CLI/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "email-validator": "^2.0.4",
+    "figlet": "^1.2.1",
+    "ora": "^3.0.0"
+  },
+  "bin": {
+    "pwned": "./cli.js"
+  }
+}
